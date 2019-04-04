@@ -13,6 +13,7 @@ public class sampler {
 		driver = new ChromeDriver();
 		driver.get("https://google.com");
 		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
 		driver.close();
 		
 	}
