@@ -12,6 +12,7 @@ public class sampler {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Swamy\\DSrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://google.com");
+		System.out.println(driver.getCurrentUrl());
 		driver.close();
 		
 	}
