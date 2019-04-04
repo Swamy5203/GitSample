@@ -11,7 +11,11 @@ public class sampler {
 		WebDriver driver;
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\Swamy\\DSrivers\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("https://fb.com");
+
+
+		driver.get("https://google.com");
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
 		driver.close();
 		
 	}
