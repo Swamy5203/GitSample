@@ -14,10 +14,19 @@ public class sampler {
 		driver.get("https://google.com");
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
-		driver.get("https://google.com");driver.get("https://google.com");driver.get("https://google.com");
-		
+
+
+		System.out.println("added Title 2");
+		System.out.println("chekcked out for git merge request");
+
+		System.out.println("merge requewst 2");
+
+		System.out.println("chekcked out for git merge request");
+
+
 		driver.close();
 		
 	}
 
 }
+ 
