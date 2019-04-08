@@ -15,6 +15,7 @@ public class sampler {
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		System.out.println("added Title 2");
+		System.out.println("added Title 3");
 		driver.close();
 		
 	}
